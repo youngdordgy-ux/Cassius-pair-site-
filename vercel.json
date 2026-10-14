@@ -1,14 +1,5 @@
-"version": 2,
-  "builds": [
-    {
-      "src": "pair.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "pair.js"
-    }
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/pair.js" }
   ]
 }
