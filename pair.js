@@ -95,3 +95,4 @@ res.json({error:e.message});
 });
 
 app.listen(PORT, ()=>console.log('CASSIUS Pair Site running on '+PORT));
+module.exports = app;
